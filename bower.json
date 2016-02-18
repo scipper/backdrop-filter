@@ -1,0 +1,30 @@
+{
+  "name": "backdrop-filter",
+  "homepage": "https://github.com/scipper/backdrop-filter",
+  "authors": [
+    "scipper <scipper@myscipper.de>"
+  ],
+  "description": "",
+  "main": "backdrop-filter.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "license": "Apache License 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html2canvas": "v0.5.0-beta4",
+    "jquery-ui": "jqueryui#^1.11.4"
+  },
+  "devDependencies": {
+    "html2canvas": "v0.5.0-beta4",
+    "jquery-ui": "jqueryui#^1.11.4"
+  }
+}

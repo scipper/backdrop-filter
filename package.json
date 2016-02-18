@@ -1,0 +1,27 @@
+{
+  "name": "backdrop-filter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scipper/backdrop-filter.git"
+  },
+  "author": "scipper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scipper/backdrop-filter/issues"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "dependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.6.1"
+  }
+}
